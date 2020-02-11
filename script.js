@@ -5,7 +5,7 @@ const hOneHeading = document.querySelector('h1');
 hOneHeading.style.textDecoration = "underline overline";
 hOneHeading.style.color = "blue";
 
-const topText = document.querySelector('.top-text');
+const topText = document.getElementsByClassName('top-text')[0];
 
 topText.style.color = "green";
 topText.style.float = "right";
